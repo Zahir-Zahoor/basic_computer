@@ -1,0 +1,47 @@
+
+# Stage 1
+stage1 = """
+CPU: Brain of the computer, processes instructions.
+RAM: Temporary memory for running programs.
+ROM: Permanent memory storing essential programs.
+Motherboard: Main circuit board connecting all components.
+Monitor/Printer/Mouse/Keyboard: Input/output devices.
+OS: Software that manages hardware and software resources.
+Internet & Networking: Connects computers (LAN/WAN), uses URLs to access sites.
+Cybersecurity: Protects computers from viruses and attacks.
+"""
+add_section("Stage 1 - Basics", stage1)
+
+# Stage 2
+stage2 = """
+Python Basics: def to define functions, loops for repetition, if-else for decisions, try-except for errors.
+Data Types: int, float, str, bool; lists and tuples store data; dict stores key-value pairs.
+Operators: Perform math or comparisons.
+Web Basics: HTML structures pages, CSS styles them, JS adds interactivity.
+Networking: Devices like routers/switches connect and direct data; WLAN for wireless access.
+"""
+add_section("Stage 2 - Python, Web & Networking", stage2)
+
+# Stage 3
+stage3 = """
+OOP: class defines objects, self represents the object, __init__ initializes, inheritance shares features.
+SQL: SELECT reads data, INSERT adds data, DROP removes tables, COMMIT saves changes.
+API: Allows software to interact with other software.
+OS Concepts: Scheduler manages CPU, virtual memory simulates large memory, deadlocks are circular waits.
+Web: HTTP/HTTPS are protocols for communication.
+"""
+add_section("Stage 3 - Python OOP, SQL, OS, Web", stage3)
+
+# Stage 4
+stage4 = """
+Python Advanced: yield creates generators, decorators modify functions, super() accesses parent methods.
+SQL Advanced: JOIN combines tables, transactions ensure safe changes, normalization organizes data.
+OS Advanced: Paging loads needed memory, virtualization simulates hardware, multitasking allows multiple processes.
+Networking & Web: DNS translates names to IPs, REST API methods (GET, POST, PUT, PATCH, DELETE) handle resources, HTTPS secures communication.
+"""
+add_section("Stage 4 - Advanced Python, SQL, OS, Web", stage4)
+
+# Save PDF
+file_path = "/mnt/data/Complete_4Stage_Explained_CheatSheet.pdf"
+pdf.output(file_path)
+file_path
